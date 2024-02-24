@@ -7,10 +7,6 @@
 </script>
 
 <style scoped>
-@font-face {
-  font-family: 'LeMurmure';
-  src: local("LeMurmure"), url(src/fonts/LeMurmure-Regular.woff) format("woff");
-}
 h1 {
   font-family: 'LeMurmure';
   font-size: 5vw;

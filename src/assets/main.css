@@ -7,6 +7,11 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'LeMurmure';
+  src: local("LeMurmure"), url(fonts/LeMurmure-Regular.woff) format("woff");
+}
+
 a {
   font-family: aktiv-grotesk, sans-serif;
   font-size: 16px;
