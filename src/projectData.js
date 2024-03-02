@@ -18,7 +18,7 @@ export default {
             textde: "DesignUp était une équipe d'environ 50 designers allemands et sénégalais, composée principalement d'artistes, de designers de produits/mode/industriel et d'artisans. Nous avons commencé à travailler ensemble numériquement en 2021 sur l'upcycling. En mai 2022, nous nous sommes réunis à Dakar. Les œuvres ont été exposées du 24 au 29 mai au \"Super Mbalit Festival\" dans le cadre du programme Off de la Biennale de Dak'Art.\n\nJ'ai travaillé avec Papis Diop (artiste et designer de produits). Nous avons conçu deux variantes de connexions en modelant des bouteilles en plastique à la chaleur, que nous avons présentées dans un cintre/sculpture. Avec Martin Bassène (spécialisé dans le travail du métal), j'ai conçu une lampe à partir de différents matériaux de récupération.\n\nPapis Diop, Sabine Boger (designer graphique et de produits) et moi avons donné un atelier pendant le festival, au cours duquel nous avons utilisé divers matériaux de rebut pour fabriquer des pinceaux avec les enfants de Yarrakh (lieu de l'exposition).\n\nPhotos de Sabine Boger et Maika Dieterich.",
             texten: "DesignUp was a team of around 50 German and Senegalese Designers consisiting of mostly artists, product/fashion/industrial designers and artisans. We started working together digitally in 2021, focusing on upcycling. In May 2022 we got together in Dakar. The works were exhibited from the 24th – 29th of May in the “Super Mbalit Festival” as part of the Dak’Art Biennale Off programme.\n\nI worked with Papis Diop (artist and product designer). We designed two variations of screwless connections by modelling plastic bottles with heat, which we showcased in a coat hanger/sculpture. Together with Martin Bassène (specialised in metal work), I also designed a lamp out of different leftover materials.\n\nPapis Diop and Sabine Boger and I also gave a workshop during the festival, in which we used various rubbish materials to make paintbrushes with children of Yarrakh (the part of Dakar in which we had out exhibition).\n\nPhotos by Sabine Boger and Maika Dieterich.\n\n\n",
             links: [],
-            images: ["designup_austellung.jpg","designup_baum_2.jpg", "designup_baum_lampe.jpg","designup_lampe.jpg","designup_lampe_3.jpg","designup_workshop.jpg","designup_workshop_1.jpg","designup_workshop_2.jpg"],
+            images: [new URL("@/assets/designup_austellung.jpg", import.meta.url),"designup_baum_2.jpg", "designup_baum_lampe.jpg","designup_lampe.jpg","designup_lampe_3.jpg","designup_workshop.jpg","designup_workshop_1.jpg","designup_workshop_2.jpg"],
             films: [],
             id: "9"
         },
@@ -30,7 +30,7 @@ export default {
             texten: "Hyperobject is a term for complex systems such as climate change or the internet. Entities that extend massively across space and time, so that we humans cannot perceive them, but can only recognise them through data collection and evaluation. With digitalisation progressing worldwide, the amount of data we can collect and analyse grows. This in turn means that more and more complex hyperobjects are being discovered. Thus, the question of how hyperobjects can be communicated properly, once again allowing sensory and emotional engagement becomes more and more relevant. \n" +
                 "\nThe topic is presented in the form of a virtual reality application, as well as a reader and an installation space that translates the navigational elements of the virtual environment into the physical environment. In the virtual world, you can enter six different chapters, which explain different aspects of the topic in the form of spoken texts. In addition, one sees animations that visually support the auditive input.\n\n\n",
             links: [],
-            images: ["hyperobjekte.png", "hyperobjekte_screenshot.jpg", "hyperobjekte_1.jpg", "hyperobjekte_reader.jpg"],
+            images: [new URL("@/assets/hyperobjekte.png", import.meta.url), "hyperobjekte_screenshot.jpg", "hyperobjekte_1.jpg", "hyperobjekte_reader.jpg"],
             films: ["https://youtu.be/ckOFov81RD8"],
             id: "8"
         },
@@ -44,7 +44,7 @@ export default {
                 "\nDirection of writing, number of characters in the alphabet and tenses determine the behaviour, look and number of generated particles. With the digits on the keyboard you can switch between seven different languages. The program loads the corresponding values  and generates the animation.\n" +
                 "\nThe work was exhibited as part of the Still Here exhibition by PÄŤ & PÓL and as part of the exhibition of the Bratislava Design Week in Winter 2022 in Bratislava, Slovakia.\n\n\n",
             links: [],
-            images: ["fingerprinting_1.jpg", "fingerprinting_2.jpg", "fingerprinting_3.jpg", "fingerprinting_4.jpg", "fingerprinting_5.jpg"],
+            images: [new URL("@/assets/fingerprinting_1.jpg", import.meta.url), "fingerprinting_2.jpg", "fingerprinting_3.jpg", "fingerprinting_4.jpg", "fingerprinting_5.jpg"],
             films: ["https://youtu.be/rZivrrFZmuk"],
             id: "7"
         },
@@ -62,7 +62,7 @@ export default {
                 "Concept and design together with Deniz Tütüncübasi.\n" +
                 "Featured in FAYD DIGITAL ISSUE 001: Balance.\n\n\n",
             links: {"Click here to enter Limbus" : "https://limbus-browser-version.glitch.me/"},
-            images: ["limbus.jpg", "limbus_1.png", "limbus_2.jpg", "limbus_3.png", "limbus_4.png"],
+            images: [new URL("@/assets/limbus.jpg", import.meta.url), "limbus_1.png", "limbus_2.jpg", "limbus_3.png", "limbus_4.png"],
             films: ["https://www.youtube.com/embed/ckOFov81RD8?si=rfWDgQHwG-HzQtd8"],
             id: "6"
         },
