@@ -53,8 +53,9 @@ function mouseMove() {
     if (currentId.value !== null) {
       titlePosition.x = x.value;
       titlePosition.y = y.value;
+      console.log(titlePosition.x, titlePosition.y)
     }
-  }, 1)(); // Adjust debounce delay as needed
+  }, 5)(); // Adjust debounce delay as needed
 }
 
 onMounted(() => {
